@@ -67,32 +67,6 @@ The **Face Recognition Attendance System** comes with a host of features designe
 
 8. **Open Source**: The system is open source. Developers are welcome to contribute and help improve the system.
 
-### Screenshots
-
-<figure align="center"> 
-  <img src="docs/images/main_page.png" alt="drawing" height="400"/>
-  <figcaption>Home Page of the Interface</figcaption>
-</figure>
-
-<figure align="center"> 
-  <img src="docs/images/add_info.png" alt="drawing" height="400"/>
-  <figcaption>Page to add student's information to the database (After capture image/upload image)</figcaption>
-</figure>
-
-<figure align="center"> 
-  <img src="docs/images/attendance.png" alt="drawing" height="400"/>
-  <figcaption>Page after Teacher Login (Attendance list)</figcaption>
-</figure>
-
-<figure align="center"> 
-  <img src="docs/images/after_attendance.png" alt="drawing" height="400"/>
-  <figcaption>Page after attending the class</figcaption>
-</figure>
-
-<figure align="center"> 
-  <img src="docs/images/choose_class.png" alt="drawing" height="400"/>
-  <figcaption>Choosing a Class to Attend</figcaption>
-</figure>
 
 ## Installation
 
@@ -101,7 +75,7 @@ To get the Face Recognition Attendance System up and running on your local machi
 1. **Clone the Repository**: First, clone the repository to your local machine. You can do this by running the following command in your terminal:
 
    ```
-   git clone https://github.com/turhancan97/Intelligent-Face-Recognition-Attendance-System.git
+   https://github.com/RishiPramod/Intelligent-Face-Recognition-Attendance-System
    ```
 
 
@@ -137,9 +111,6 @@ This will create a virtual environment and activate it. All the dependencies wil
 
    This command will install all the necessary libraries and packages listed in the `requirements.txt` file.
 
-   Please note that you need to download the shape predictor file 'shape_predictor_68_face_landmarks.dat' from the dlib website. You can download the file from [here](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat). You can put the file in the detection folder and you need to write full path of the file in the face_matching.py file for the **datFile** variable as below.
-
-   ![datfile](docs/images/datFile.png)
 
 4. **Set Up Firebase**: The system uses Firebase for database operations. You need to set up a Firebase project and replace the Firebase configuration in the project with your own. You can follow the [Firebase setup guide](https://firebase.google.com/docs/web/setup) for instructions.
    1. First you need to create a project in Firebase.
