@@ -1,0 +1,7 @@
+teacher:
+  password_hash: <enter-your-teacher-login-hash>
+firebase:
+  pathToServiceAccount: "configs/serviceAccountKey.json"
+  databaseURL: "https://walk-through-attendance-web-default-rtdb.firebaseio.com/"
+  storageBucket: "walk-through-attendance-web.appspot.com"
+
